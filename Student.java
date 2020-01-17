@@ -5,4 +5,8 @@ public class Student{
 
 	private String address;
 	private char gender;
+
+	public String getAddress(){
+		return this.address;
+	}
 }
