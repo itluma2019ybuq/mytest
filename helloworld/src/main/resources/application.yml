@@ -1,0 +1,22 @@
+jdbc:
+  driverClassName: com.mysql.jdbc.Driver
+  url: jdbc:mysql://127.0.0.1:3306/erp?characterEncoding=utf-8
+  username: root
+  password: 123456
+  list:
+    - aaa
+    - bbb
+    - ccc
+
+#配置mybatis
+mybatis:
+  mapper-locations: classpath:/mybatis/mapper/*.xml #mapper映射文件的位置
+  config-location: classpath:/mybatis/SqlMapConfig.xml #mybatis主配置文件的位置
+
+#配置jdbc的连接信息
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/erp?characterEncoding=utf-8
+    username: root
+    password: 123456
